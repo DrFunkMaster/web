@@ -1,0 +1,241 @@
+ @font-face{
+    font-family: 'Fipps-Regular';
+    src: url(../font/Fipps-Regular.otf);
+}
+@font-face{
+    font-family: 'Early_gameboy';
+    src: url(../font/Early\ GameBoy.ttf);
+}
+body{
+    margin: 0px;
+    font-size: 18px;
+    color: black;
+    background-image: url(../img/walppaper.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+    transition-duration: 500ms;
+    height: 60px;
+}
+nav:hover{
+    opacity: 1;
+}
+ul{
+    margin: -15px;
+}
+li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    color: rgb(216, 0, 0);
+    list-style: none;
+    margin-top: -15px;
+    transition-duration: 650ms;
+}
+li:hover{
+    margin-top: 17px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.capa_ico{
+    width: 100%;
+    height: 20px;
+    float: left;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    position: relative;
+    top: -5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.derecha{
+    float: right;
+    position: relative;
+    border-style: solid;
+    top: -20px;
+    left: 20px;
+    background-color: grey;
+}
+.bienvenida{
+    font-family: 'Fipps-Regular';
+    text-align: center;
+}
+.bordes{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    color: grey;
+}
+.boton{
+    font-size: 50px;
+}
+.direccion{
+    clear: right;
+    background-color: indianred;
+    border-radius: 10px;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Early_gameboy';
+    clear: right;
+    padding: 30px;
+}
+#bloques{
+    font-family: 'Early_gameboy';
+    font-size: medium;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+    clear: both;
+    margin: 5%;
+}
+#somos{
+    clear: left;
+}
+#instalaciones{
+    clear: left;
+}
+img{
+    clear: left;
+}
+div{
+    border-radius: 5px;
+}
+.bloque{
+    align-content: center;
+    margin: 10%;
+}
+.contenedor{
+    align-content: center;
+    width: 100%;
+    height:180px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+}
+.contenedorins{
+    align-content: center;
+    width: 100%;
+    height:180px;
+    margin-left: 35%;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+}
+
+.contenido{
+    height: 286px;
+    width: 30%;
+    float:left;
+    margin-left: 0px;
+    margin: 10px;
+}
+.somosimg{
+    height: 294px;
+    width: 500px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: black ;
+    align-content: center;
+}
+.instalacionesimg{
+    width: 100%;
+    height: 294px;
+    border-radius: 4px;
+    align-content: center;
+}
+.img{
+    width: 25%;
+    height: 250px;
+    margin: auto;
+}
+.hardware{
+    height: 150px;
+    width: 280px;
+}
+.custom{
+    height: 180px;
+    width: 280px;
+}
+.software{
+    height: 180px;
+    width: 280px;
+}
+.tecnico{
+    height: 180px;
+    width: 280px;
+}
+.tabla-servicios{
+    margin-left: 200px;
+    text-align: center;
+}
+.tabla-servicios th{
+    border-left: double;
+    border-right: double;
+}
+.tabla_ventas{
+    align-content: center;
+    text-align: center;
+    font-family: 'Early_gameboy';
+    font-size: medium;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+}
+.tabla_ventas th{
+    border-left: double;
+    border-right: double;
+}
+table{
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.producto{
+    height: 200px;
+    width: 280px;
+}
+.redes{
+    width: 40px;
+    height: 40px;
+}
+.form{
+    border-width: 2px;
+    border-radius: 3px;
+}
+.contacto{
+    
+}
+iframe{
+    margin: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+}
+.bloque{
+    border-color: black;
+    border-width: 10px;
+    border-radius: 5px;
+    background-color: white ;
+}
+.contenedorins{
+    margin-left: 30%;
+}
